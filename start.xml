@@ -10,6 +10,7 @@
                 <BUTTON text="close" onClick="cam.close"/>
                 <BUTTON text="front" onClick="cam.type='front'"/>
                 <BUTTON text="back" onClick="cam.type='back'"/>
+            </WINDOW>
         </WINDOW>
     </UILAYOUT>
 </MOML>
