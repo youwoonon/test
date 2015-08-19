@@ -4,7 +4,9 @@
         <WINDOW layout="0,0,320,460" defaultImg="#ffffff">
             <LABEL layout="10,10,auto,auto" text="Hello MOML" />
             <!--<WEBVIEW layout = "10, 60, 300, 300" src="http://naver.com" controls = "none" />-->
-            <CAMERA layout="10,60,300,300" />
+            <CAMERA id="cam" layout="10,60,300,300" />
+            <WINDOW layout="10,300,300,auto" align=linear"/>
+                <BUTTON text="close" onClick="cam.close"/>
         </WINDOW>
     </UILAYOUT>
 </MOML>
