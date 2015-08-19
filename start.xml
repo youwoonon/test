@@ -3,7 +3,8 @@
     <UILAYOUT portrait="320,460" landscape="320,460">
         <WINDOW layout="0,0,320,460" defaultImg="#ffffff">
             <LABEL layout="10,10,auto,auto" text="Hello MOML" />
-            <WEBVIEW layout = "10, 60, 300, 300" src="http://naver.com" controls = "none" />
+            <!--<WEBVIEW layout = "10, 60, 300, 300" src="http://naver.com" controls = "none" />-->
+            <CAMERA layout="10,60,300,300" />
         </WINDOW>
     </UILAYOUT>
 </MOML>
