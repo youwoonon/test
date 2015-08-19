@@ -8,7 +8,7 @@
             <LABEL layout="10,10,auto,auto" text="Hello MOML" />
             <!--<WEBVIEW layout = "10, 60, 300, 300" src="http://naver.com" controls = "none" />-->
             <CAMERA id="cam" layout="10,60,300,300" />
-            <WINDOW layout="10,300,400,auto" align="linear"/>
+            <WINDOW layout="10,400,300,auto" align="linear"/>
                 <STYLEBUTTON themeId="style1" text="open" onClick="cam.open"/>
                 <STYLEBUTTON themeId="style1" text="close" onClick="cam.close"/>
                 <STYLEBUTTON themeId="style1" text="front" onClick="cam.type='front'"/>
