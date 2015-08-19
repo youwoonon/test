@@ -2,7 +2,8 @@
 <MOML>
     <UILAYOUT portrait="320,460" landscape="320,460">
         <WINDOW layout="0,0,320,460" defaultImg="#ffffff">
-            <LABEL layout="100,100,auto,auto" text="Hello MOML" />
+            <LABEL layout="10,10,auto,auto" text="Hello MOML" />
+            <WEBVIEW> layout = "10, 60, 300, 300" src="http://naver.com" </WEBVIEW>
         </WINDOW>
     </UILAYOUT>
 </MOML>
